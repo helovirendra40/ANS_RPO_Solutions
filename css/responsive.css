@@ -1,0 +1,43 @@
+@media (max-width:1199px){
+.girlsLap{
+right: 0px;
+}}
+@media (max-width: 991px) and (min-width: 767px){
+    
+    .carousel-item .row > div:last-child{ margin-top: 30px;}
+    .rowNew > div:nth-child(1), .rowNew > div:nth-child(2), .rowNew > div:nth-child(3), .rowNew > div:nth-child(4) {
+        width: 50% !important;
+    }
+    
+}
+@media (max-width: 1199px) and (min-width: 767px){
+    .Clients_Testimonial { max-width: 600px; width: 100%; margin: 0px auto;}
+}
+
+@media (max-width:767px){
+    .rowNew > div:nth-child(1), .rowNew > div:nth-child(2), .rowNew > div:nth-child(3), .rowNew > div:nth-child(4) {
+        width: 100% !important;
+    }
+    img.frame {
+        width: 32px;
+    }
+    .girlsLap{ display: none;}
+    footer h3 {
+        font-size: 20px;
+    }
+    .formOuter h1{ font-size: 17px;}
+    .girlsLap{ position: relative; right: 0px;}
+    .carousel-item .row > div:last-child{ margin-top: 30px;}
+    h2{ font-size: 25px;}
+p{ font-size: 14px; text-align: center;}
+.formOuter{ margin-top: 30px;}
+}
+
+@media (max-width:508px){
+    .copyright ul{ margin-bottom: 0px; list-style: none; padding-left: 0px; display: flex; gap: 10px; flex-direction: column;}
+    .copyright ul li::after{
+        content: "|"; display: none;
+        position: absolute; right: 0px;
+    }
+    .copyright{ justify-content: left;}
+}

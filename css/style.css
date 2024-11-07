@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --theme-color: #4747EA;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.wrapper {
+    margin: 0px auto;
+    height: 700px;
+}
+h2{ font-size: 36px;}
+p{ font-size: 18px; }
+.quickFacts{ padding: 15px; padding-top: 40px; background: var(--theme-color); color: #fff;}
+.girlsLap{ width: 100%; transform: scaleX(-1);position: absolute;
+    bottom: -15px;
+    right: 25%;
+}
+.StepsNum{ background: #4747EA; border-radius: 6px; color: #fff; font-weight: 600; height: 40px; width: 40px; display: flex; justify-content: center; align-items: center;}
+.stepsText{      width: calc(100% - 50px); margin-left: 10px;}
+.stepsText p{line-height: 22px;
+    font-size: 14px; font-weight: 400;}
+    .stepsText strong{ font-weight: 600; font-size: 14px;}
+.steps{ margin-bottom: 15px; width: 100%; padding: 12px; border-radius: 4px; background: #fff;}
+.carousel-indicators{ bottom: -68px;}
+.carousel-indicators [data-bs-target]{ background: #D9D9D9;width: 14px;
+    height: 0px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-radius: 14px;}
+    .carousel-indicators .active{ opacity: 1; background: #26B5A1;}
+    .slideSection{ padding: 15px; position: relative;}
+    .slideSection > div{ z-index: 0; position: absolute;}
+    .slideSection > .div1{ top: 0px; left: -15px; height: 150px; width: 150px; background: #26B5A1; }
+    .slideSection > .div2{ bottom: 0px; right: -0px; height: 150px; width: 150px; background: #26B5A1; }
+    .slideSection > img{ z-index: 1; position: relative;}
+
+
+
+/* Studies section */
+.OurCaseStudies{background: #4747EA; padding: 50px 0px; margin-top: 40px;}
+.cardSlide{ padding: 15px; }
+.sliderDetails {
+    text-align: left;
+    color: #fff;
+}
+.sliderDetails p{ text-align: left; margin-bottom: 0px;}
+.sliderDetails span{ text-align: left; margin-top: 15px;}
+.formOuter{ background: #ECEEFF;border-radius: 10px; overflow: hidden; padding-bottom: 17px;}
+.formOuter form{ padding: 15px;}
+.formOuter h1{ font-size: 25px; font-weight: 700; text-align: center; background: #26B5A1; color: #fff; padding: 15px;}
+.accordion-header {
+    margin-bottom: 0;
+    border: 1px solid #d1d1d1;
+}
+img.frame {
+    width: 35px;
+}
+
+
+
+
+
+/* Accordiance */
+
+.accordion-item{ margin-bottom: 10px;}
+.accordion-header {
+    margin-bottom: 0;
+    border: 1px solid #d1d1d1;
+}
+.accordion-button::after{
+    content: '+'; background-image: none; font-size: 36px; line-height: 20px;
+}
+.accordion-button:not(.collapsed)::after{
+    content: '-'; background-image: none; font-size: 36px; line-height: 10px;
+}
+.accordion-item:first-of-type>.accordion-header .accordion-button{ border-radius: 0px !important; border-color: none !important;}
+.btn-form{ width: 120px; border-radius: 0px; background-color: #EF5D30;}
+.btn-form:hover{ width: 120px; border-radius: 0px; background-color: #dd5025;}
+/* footer */
+footer{ background: #0D0D0D; color: #fff; padding: 40px 0px;}
+.socialLinks{ list-style: none; padding-left: 0px; display: flex; gap: 10px;}
+.fList{ list-style: none; padding-left: 0px;}
+.fList a{ color: #fff; text-decoration: none;}
+.fList li{ margin-bottom: 7px;}
+footer h3{ font-size: 20px;
+    margin-bottom: 16px;}
+    footer p{ font-size: 14px;}
+
+    footer h4{ font-size: 18px;
+        margin-bottom: 16px;}
+.flag{ height: 20px;
+    width: 19px;}
+.container-fluidNew{ width: 96%;}
+
+img.mask{ height: 65px; height: 65px; margin-right: 10px;}
+.auth { font-size: 22px;}
+.slick-dots li button:before{ font-size: 15px; color:#d9d9d9; opacity: 1;}
+.slick-dots li.slick-active button:before{ color: #26B5A1; opacity: 1;}
+.rowNew > div:nth-child(1) {
+    width: 30%;
+}
+.rowNew > div:nth-child(2) {
+    width: 194px;
+    /* background: red; */
+}
+.rowNew > div:nth-child(4) {
+    width: 27%;
+}
+.copyright{ padding: 14px 0px; background: black; color: #fff; display: flex; align-items: center; justify-content: center;}
+.copyright ul{ margin-bottom: 0px; list-style: none; padding-left: 0px; display: flex; gap: 10px;}
+.copyright ul li{ padding-right: 22px;
+    position: relative;
+    padding-left: 10px;}
+.copyright ul li::after{
+    content: "|";
+    position: absolute; right: 0px;
+}
+.copyright ul li:last-child:after{
+    content: "";
+    position: absolute; right: 0px;
+}
