@@ -15,6 +15,7 @@ right: 0px;
 }
 
 @media (max-width:767px){
+    .quickFacts{ padding: 15px 0px;}
     .rowNew > div:nth-child(1), .rowNew > div:nth-child(2), .rowNew > div:nth-child(3), .rowNew > div:nth-child(4) {
         width: 100% !important;
     }
